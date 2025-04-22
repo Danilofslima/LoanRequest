@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_1488662_rsvp_t_0.rsvp_user" name="x_1488662_rsvp_t_0.rsvp_user">dae6062683dfd610fae1caa6feaad326</contains>
+        <role display_value="x_1594693_loaner_0.admin_loaner" name="x_1594693_loaner_0.admin_loaner">92fe0994c30122104b88b7ddd40131cd</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 17:05:20</sys_created_on>
+        <sys_id>d79563f9c30522104b88b7ddd40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_rsvp_t_0.rsvp_user.x_1594693_loaner_0.admin_loaner</sys_name>
+        <sys_package display_value="Loaner Request" source="x_1594693_loaner_0">8efe0994c30122104b88b7ddd4013196</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">8efe0994c30122104b88b7ddd4013196</sys_scope>
+        <sys_update_name>sys_user_role_contains_d79563f9c30522104b88b7ddd40131ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 17:05:20</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">8efe0994c30122104b88b7ddd4013196</application>
+        <file_path/>
+        <instance_id>d5ee1ca6fb93921485daf3585eefdca9</instance_id>
+        <instance_name>dev293185</instance_name>
+        <name>sys_user_role_contains_d79563f9c30522104b88b7ddd40131ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_1488662_rsvp_t_0.rsvp_user" name="x_1488662_rsvp_t_0.rsvp_user">dae6062683dfd610fae1caa6feaad326</contains><role display_value="x_1594693_loaner_0.admin_loaner" name="x_1594693_loaner_0.admin_loaner">92fe0994c30122104b88b7ddd40131cd</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 17:05:20</sys_created_on><sys_id>d79563f9c30522104b88b7ddd40131ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1488662_rsvp_t_0.rsvp_user.x_1594693_loaner_0.admin_loaner</sys_name><sys_package display_value="Loaner Request" source="x_1594693_loaner_0">8efe0994c30122104b88b7ddd4013196</sys_package><sys_policy/><sys_scope display_value="Loaner Request">8efe0994c30122104b88b7ddd4013196</sys_scope><sys_update_name>sys_user_role_contains_d79563f9c30522104b88b7ddd40131ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 17:05:20</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-1456240192</payload_hash>
+        <record_name>x_1488662_rsvp_t_0.rsvp_user.x_1594693_loaner_0.admin_loaner</record_name>
+        <reverted_from/>
+        <source>4ed299d8c30122104b88b7ddd4013190</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 17:05:20</sys_created_on>
+        <sys_id>539563f9c30522104b88b7ddd40131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1965e761a9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 17:05:20</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>579563f98d052210c3a8738f03d908bf</update_guid>
+        <update_guid_history>579563f98d052210c3a8738f03d908bf:-1456240192</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 17:53:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>00f9c49eabc241048575aff67a711d90</sys_id>
+        <sys_metadata>d79563f9c30522104b88b7ddd40131ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_rsvp_t_0.rsvp_user.x_1594693_loaner_0.admin_loaner</sys_name>
+        <sys_package display_value="Loaner Request" source="x_1594693_loaner_0">8efe0994c30122104b88b7ddd4013196</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">8efe0994c30122104b88b7ddd4013196</sys_scope>
+        <sys_scope_delete display_value="">0b1116e9e1a9489a9ddf7322b3961221</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_d79563f9c30522104b88b7ddd40131ba</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_d79563f9c30522104b88b7ddd40131ba">539563f9c30522104b88b7ddd40131c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 17:53:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
