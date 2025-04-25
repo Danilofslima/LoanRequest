@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Loaner Item Pick up2</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 01:00:00</run_period>
+        <run_start>2025-04-24 14:33:16</run_start>
+        <run_time>1970-01-01 03:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[// var lutil = new LoanerUtils();
+
+// var plist = [];
+
+// plist = lutil.getNullPickupReminders();
+
+// for (var i=0; i<plist.length; i++) {
+
+//    lutil.sendPickupReminder(plist[i]);
+
+// }
+
+var lutil = new LoanerUtils();
+
+var plist = lutil.getNullPickupReminders();
+
+if (plist.length === 0) {
+    gs.info("No pickup reminders to send.");
+} else {
+    for (var i = 0; i < plist.length; i++) {
+        try {
+            lutil.sendPickupReminder(plist[i]);
+            gs.info(`Reminder sent for item: ${plist[i].id}`);
+        } catch (error) {
+            gs.info(`Failed to send reminder for item: ${plist[i].id}`, error);
+        }
+    }
+}
+
+// This code does not update the Field u_glide_date_time_1 = rightNow, so probably still running undefinitly ]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 17:11:21</sys_created_on>
+        <sys_id>262ab126c34522104b88b7ddd4013131</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Loaner Item Pick up2</sys_name>
+        <sys_package display_value="Loaner Request" source="x_1594693_loaner_0">8efe0994c30122104b88b7ddd4013196</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">8efe0994c30122104b88b7ddd4013196</sys_scope>
+        <sys_update_name>sysauto_script_262ab126c34522104b88b7ddd4013131</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 21:00:25</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>262ab126c34522104b88b7ddd4013131</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 20:39:01</sys_created_on>
+        <sys_id>7cb9aaaac30922104b88b7ddd40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 20:39:01</sys_updated_on>
+        <table>sysauto_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
